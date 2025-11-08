@@ -1,0 +1,21 @@
+[project]
+name = "webcrawl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crawl4ai>=0.7.6",
+    "PyQt6>=6.6.0",
+    "PyQt6-WebEngine>=6.6.0",
+    "markdown>=3.5.0",
+]
+
+[project.optional-dependencies]
+build = [
+    "pyinstaller>=6.0.0",
+]
+
+[[index]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+default = true
